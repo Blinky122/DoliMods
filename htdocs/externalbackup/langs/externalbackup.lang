@@ -1,0 +1,17 @@
+# Dolibarr language file - de_DE - externalbackup
+CHARSET=UTF-8
+Module101240Name=Externe Sicherung
+Module101240Desc=Erstellen Sie ein Backup Ihrer Dolibarr-Daten auf einem beliebigen Cloud-Hosting-Service.
+externalbackupSetup=Einrichtung des Moduls externalbackup
+externalbackupDesc=Mit diesem Modul können Sie Ihre Dolibarr-Daten auf jedem externen Support sichern (viele Cloud-Dienste werden unterstützt).
+externalbackupNoSetup=Es gibt keine bestimmten Dinge, die eingerichtet werden müssen. Dieses Modul ist bei Aktivierung sofort verfügbar.
+AboutInfo=Dieses Modul wird von Laurent Destailleur für NLTechno entwickelt und vertrieben, <a href="https://www.nltechno.com">www.nltechno.com</a> (A Dolibarr Preferred Partner company).
+MoreModules=Other modules of same author are available on the official DoliStore market place...
+MoreModulesLink=<a target="_blank" href="https://www.dolistore.com/search.php?search_query=nltechno">Click here to see full list</a>  
+MoreCloudHosting=Um Online-Dolibarr zu verwenden, wählen Sie das gesicherte Hosting DoliCloud.
+MoreCloudHostingLink=<a target="_blank" href="https://www.dolicloud.com">Click here for more information</a>
+CompatibleWithDoliDroid=Dieses Modul ist auch mit DoliDroid, der Android-Anwendung für Dolibarr, kompatibel.
+EXTERNAL_BACKUP_RCLONE_PATH=Pfad zum Befehl rclone
+EXTERNAL_BACKUP_RCLONE_CONF_PATH=Pfad zur Konfigurationsdatei, die für rclone verwendet werden soll
+EXTERNAL_BACKUP_RCLONE_TARGET=Für die Sicherung zu verwendendes Ziel
+EXTERNAL_BACKUP_RCLONE_TARGETDesc=Führen Sie <strong>rclone config</strong> von der Befehlszeile aus, um ein <strong>target</strong> Ziel für Ihre Sicherung zu erstellen, einzurichten und zu autorisieren. Geben Sie hier den Namen des Ziels ein, das Sie erstellt haben.
